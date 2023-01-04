@@ -12,5 +12,8 @@ class Personnages {
 let newPersonnages1 = new Personnages(22,'Vitor','Bruxelles');
 let newPersonnages2 = new Personnages(22,'Lucas','Koekelberg');
 
+newPersonnages1.sePresenter();
+newPersonnages2.sePresenter();
+
 console.log(newPersonnages1);
 console.log(newPersonnages2);
