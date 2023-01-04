@@ -4,6 +4,9 @@ class Personnages {
         this.nom = nom;
         this.ville = ville;
     }
+    sePresenter() {
+        console.log(`Bonjour, je m'appelle ${this.nom} !`);
+    }
 }
 
 let newPersonnages1 = new Personnages(22,'Vitor','Bruxelles');
